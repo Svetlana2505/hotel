@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// @font-face {
+//     font-family: OpenSans;
+//     src: url(../font/OpenSans-Regular.ttf);
+// }
+body {
+    font-family:"Open sans";
+    color: #000000;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+
+//.....................................
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 100px 0;
+
+    .logo {
+        width: 92px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        img {
+            width: 32px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 24px;
+            
+        }
+
+    }
+
+    .link {
+        width: 476px;
+        margin: 0 60px 0 512px;
+       
+        ul {
+            display: flex;
+            justify-content: space-between;
+        
+        }
+
+        li {
+            font-size: 16px;
+            line-height: 24px;
+            color: #222222;
+        }
+    }
+    form {
+
+       button {
+        width: 92px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #100F2E;
+        border-radius: 30px;
+        border: 1px solid grey;
+        margin-left: 24px;
+       }
+    }
+
+}
+// .......header........
+header {
+    margin-bottom: 120px;
+
+    .first-line {
+        display: flex;
+        justify-content: space-between;
+
+        .first-line_text {
+
+            h1 {
+                font-size: 60px;
+                line-height: 80px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 32px;
+                color: #555555;
+            }
+        }
+       
+    }
+// ..........................
+    .search-button {
+        width: 500px;
+        height: 252px;
+        padding: 30px;
+
+        .data {
+            width: 218px;
+            height: 56px;
+        }
+
+        .text {
+            width: 218px;
+            height: 56px;  
+        }
+       
+    }
+    // .....................
+    .images {
+        display: flex;
+        justify-content: space-between;
+
+        .images-item {
+           display: flex;
+        }
+
+        .images2 {
+            margin-bottom: 13px;
+        }
+        
+    }
+    
+}
+// .............second line......
+.second-line {
+    h2 {
+        margin-bottom: 16px;
+    }
+
+    p {
+        color: #555555;
+    }
+
+    .service-boxs {
+        display: flex;
+        justify-content: space-between;
+        margin: 41px 0 120px 0;
+
+        .service-box {
+            width: 308px;
+            height: 320px;
+            text-align: center;
+
+            &:hover {
+                box-shadow: 2px 6px 16px -2px gainsboro;
+            }
+            
+
+            h3 {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            p {
+                margin: 12px 0 50px 0;
+                color: #666666;
+            }
+        }
+
+        .service-img {
+            width: 68px;
+            margin:36px auto 42px;
+        }
+    }
+}
+// ..........line three.........
+.line-three {
+    display: flex;
+    justify-content: space-between;
+
+    .about-details {
+        width: 586px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555555;
+        }
+
+        button {
+            background: #3771C8;
+            border: none;
+            border-radius: 8px;
+            color: #ffff;
+            width: 167px;
+            height: 56px;
+        }
+    }
+
+    .line-three_group {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0 60px 0;
+
+        .item {
+
+            h4 {
+                font-size: 30px;
+                line-height: 46px;
+                color: #222222;
+            }
+
+            p {
+                color: #222222;
+            }
+        }
+    }
+}
